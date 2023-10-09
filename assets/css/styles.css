@@ -5,7 +5,7 @@ a {
   text-decoration: none !important;
 }
 a:hover{
-  color: white;
+  color: white !important;
 }
 .formName{
   display: flex;
@@ -32,4 +32,5 @@ justify-content: center;
 }
 textarea{
   height: 200px;
+  resize: none !important;
 }
